@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="button">계산하기</string>
+    <string name="hename">남자이름</string>
+    <string name="shename">여자이름</string>
+    <string name="context">계산기 앱</string>
+    <string name="res">결과 확인</string>
+    <string name="main">Love Calculator</string>
+</resources>

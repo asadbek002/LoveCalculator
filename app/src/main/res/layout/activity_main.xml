@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="@string/context"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/yourname"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:textSize="45sp"
+        android:autofillHints="name"
+        android:hint="@string/hename"/>
+
+    <EditText
+        android:id="@+id/partnername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="name1"
+        android:hint="@string/shename"
+        android:inputType="textPersonName"
+        android:textSize="45sp" />
+
+    <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#798505"
+    android:text="@string/button"
+    android:padding="10dp"
+    android:textAllCaps="false"
+    android:textSize="30sp"
+    android:textColor="@android:color/black"
+    android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="@string/res"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+</LinearLayout>
